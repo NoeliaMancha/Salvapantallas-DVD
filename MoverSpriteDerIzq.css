@@ -1,0 +1,37 @@
+.SpriteHorizontal{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fc23bb;
+    border: 2px solid #4b1727;
+    border-radius: 10px;
+    border-color: #4b1727;
+    margin: 0 auto;
+}
+
+#ContenedorSprite {
+    position: relative; /* Esto es necesario para que el Sprite se posicione correctamente dentro del contenedor */
+    width: 1300px; /* Ancho del contenedor */
+    height: 620px; /* Alto del contenedor */
+    border: 2px solid black; /* Borde negro */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+#botones {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Margen superior para separación */
+}
+
+button {
+    background-color: #ebee04; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 7%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
